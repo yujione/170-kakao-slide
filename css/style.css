@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/*
+btn_talk.png
+사이즈 80*90
+무료채팅{background-position:0 0;}
+보이스톡{background-position:-80px 0;}
+샵검색{background-position:-160px 0;}
+톡게시판{background-position:-240px 0;}
+오픈채팅{background-position:-320px 0;}
+채널탭{background-position:-400px 0;}
+
+무료채팅:hover{background-position:0 -90px;}
+보이스톡:hover{background-position:-80px -90px;}
+샵검색:hover{background-position:-160px -90px;}
+톡게시판:hover{background-position:-240px -90px;}
+오픈채팅:hover{background-position:-320px -90px;}
+채널탭:hover{background-position:-400px -90px;}
+
+
+이전,다음
+사이즈 44*44
+img_talk_button.png
+
+
+
+이전{left:0;background-position:0 0;}
+이전:hover{background-position:-70px 0;}
+
+다음{right:0;background-position:0 -70px;}
+다음:hover{background-position:-70px -70px;}
+*/
+#wrap > header {
+  margin: 40px;
+  color: #666;
+  font-weight: 600;
+  text-align: center;
+}
+#wrap > section {
+  width: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+#wrap > section > .slides-button {
+  margin-bottom: 20px;
+}
+#wrap > section > .slides-button > ol {
+  display: flex;
+  width: 480px;
+  margin: 0 auto;
+}
+#wrap > section > .slides-button > ol > li {
+  width: 90px;
+  background-image: url(./../images/btn_talk.png);
+}
+#wrap > section > .slides-button > ol > li:nth-child(1) {
+  background-position: 0 0px;
+}
+#wrap > section > .slides-button > ol > li:nth-child(1):hover, #wrap > section > .slides-button > ol > li:nth-child(1).on {
+  background-position: 0 -90px;
+}
+#wrap > section > .slides-button > ol > li:nth-child(2) {
+  background-position: -80px 0;
+}
+#wrap > section > .slides-button > ol > li:nth-child(2):hover, #wrap > section > .slides-button > ol > li:nth-child(2).on {
+  background-position: -80px -90px;
+}
+#wrap > section > .slides-button > ol > li:nth-child(3) {
+  background-position: -160px 0;
+}
+#wrap > section > .slides-button > ol > li:nth-child(3):hover, #wrap > section > .slides-button > ol > li:nth-child(3).on {
+  background-position: -160px -90px;
+}
+#wrap > section > .slides-button > ol > li:nth-child(4) {
+  background-position: -240px 0;
+}
+#wrap > section > .slides-button > ol > li:nth-child(4):hover, #wrap > section > .slides-button > ol > li:nth-child(4).on {
+  background-position: -240px -90px;
+}
+#wrap > section > .slides-button > ol > li:nth-child(5) {
+  background-position: -320px 0;
+}
+#wrap > section > .slides-button > ol > li:nth-child(5):hover, #wrap > section > .slides-button > ol > li:nth-child(5).on {
+  background-position: -320px -90px;
+}
+#wrap > section > .slides-button > ol > li:nth-child(6) {
+  background-position: -400px 0;
+}
+#wrap > section > .slides-button > ol > li:nth-child(6):hover, #wrap > section > .slides-button > ol > li:nth-child(6).on {
+  background-position: -400px -90px;
+}
+#wrap > section > .slides-button > ol > li > a {
+  display: block;
+  height: 90px;
+}
+#wrap > section > .slides-container {
+  position: relative;
+  width: 478px;
+  height: 438px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#wrap > section > .slides-container > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+}
+#wrap > section > .slides-container > ul > li {
+  width: 478px;
+}
+#wrap > section > .slides-container > ul > li > a {
+  display: block;
+  height: 438px;
+}
+#wrap > section > .slides-container > ul > li:nth-child(1) > a {
+  background-image: url(./../images/img_talk_cont1.png);
+}
+#wrap > section > .slides-container > ul > li:nth-child(2) > a {
+  background-image: url(./../images/img_talk_cont2.png);
+}
+#wrap > section > .slides-container > ul > li:nth-child(3) > a {
+  background-image: url(./../images/img_talk_cont3.png);
+}
+#wrap > section > .slides-container > ul > li:nth-child(4) > a {
+  background-image: url(./../images/img_talk_cont4.png);
+}
+#wrap > section > .slides-container > ul > li:nth-child(5) > a {
+  background-image: url(./../images/img_talk_cont5.png);
+}
+#wrap > section > .slides-container > ul > li:nth-child(6) > a {
+  background-image: url(./../images/img_talk_cont6.png);
+}
+#wrap > section > a {
+  position: absolute;
+  display: block;
+  width: 44px;
+  height: 44px;
+  text-indent: -9999px;
+  background-image: url(./../images/img_talk_button.png);
+}
+#wrap > section > .prev {
+  left: -55px;
+  top: 300px;
+}
+#wrap > section > .prev:hover {
+  background-position: -70px 0;
+}
+#wrap > section > .next {
+  right: -55px;
+  top: 300px;
+  background-position: 0 -70px;
+}
+#wrap > section > .next:hover {
+  background-position: -70px -70px;
+}/*# sourceMappingURL=style.css.map */
